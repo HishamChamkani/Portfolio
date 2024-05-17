@@ -7,8 +7,8 @@ import Jadu from "../jadu.png"
 
 const Experience = () => {
   return (
-    <div className="bg-MyDark font-Montserrat pt-16 pb-36 px-12">
-      <h2 className="text-white text-2xl font-bold mb-4 ml-8">Experience</h2>
+    <div className="bg-[#31363F] font-Montserrat pt-16 pb-36 px-12">
+      <h2 className="text-white text-2xl font-semibold mb-4 ml-8">Experience</h2>
       <div className="flex mt-10 ml-8">
         <div className="flex items-center">
           <img

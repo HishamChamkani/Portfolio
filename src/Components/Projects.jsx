@@ -40,34 +40,58 @@ function Projects() {
     ],
   };
   return (
-    <div className="bg-MyDark font-Montserrat pt-16 pb-36 px-12">
-      <h2 className="text-white text-2xl font-bold mb-4 ml-8">Projects</h2>
+    <div className="bg-[#31363F] font-Montserrat pt-16 pb-36 px-12">
+      <h2 className="text-white text-2xl font-semibold mb-4 ml-8">Projects</h2>
 
       <div className="slider-container">
         <Slider {...settings}>
           <div className="slider-item bg-MySalat h-48 m-4 flex flex-row">
             <img src={Weather} alt="" />
+            <a href="https://hishamweatherapp.vercel.app/" target="_blank">
             <button className="bg-MyDark text-white text-lg px-6 mt-2 block mx-auto">
               Live Link
             </button>
+            </a>
           </div>
           <div className="slider-item bg-MySalat h-48 m-4 flex flex-row">
             <img src={Counter} alt="" />
+            <a href="https://counterapp-weld-eight.vercel.app/" target="_blank">
             <button className="bg-MyDark text-white text-lg px-6 mt-2 block mx-auto">
               Live Link
             </button>
+            </a>
           </div>
           <div className="slider-item bg-MySalat h-48 m-4 flex flex-row">
             <img src={Weather} alt="" />
+            <a href="https://hishamweatherapp.vercel.app/" target="_blank">
             <button className="bg-MyDark text-white text-lg px-6 mt-2 block mx-auto">
               Live Link
             </button>
+            </a>
           </div>
           <div className="slider-item bg-MySalat h-48 m-4 flex flex-row">
             <img src={Price} alt="" />
+            <a href="https://pricing-nu-five.vercel.app/" target="_blank">
             <button className="bg-MyDark text-white text-lg px-6 mt-2 block mx-auto">
               Live Link
             </button>
+            </a>
+          </div>
+          <div className="slider-item bg-MySalat h-48 m-4 flex flex-row">
+            <img src={Counter} alt="" />
+            <a href="https://counterapp-weld-eight.vercel.app/" target="_blank">
+            <button className="bg-MyDark text-white text-lg px-6 mt-2 block mx-auto">
+              Live Link
+            </button>
+            </a>
+          </div>
+          <div className="slider-item bg-MySalat h-48 m-4 flex flex-row">
+            <img src={Weather} alt="" />
+            <a href="https://hishamweatherapp.vercel.app/" target="_blank">
+            <button className="bg-MyDark text-white text-lg px-6 mt-2 block mx-auto">
+              Live Link
+            </button>
+            </a>
           </div>
         </Slider>
       </div>
